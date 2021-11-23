@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(13,26,45);
+}
+
+.container{
+    margin: auto;
+    margin-top: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.card-container{
+    width: 240px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(21,39,63);
+    box-shadow: -1px 1px 19px 2px rgba(0,0,0,0.87);
+}
+
+
+h5{
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    
+}
+
+
+.card-description{
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+    text-align: left;
+}
+
+.price-contianer{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 9%;
+    height: 60%;
+}
+.clock-img{
+    width: 12px;
+    height: 70%;
+    margin-right: 5px;
+}
+
+.prom-time{
+    font-size: 11px;
+    color: rgb(139, 139, 139);
+}
+
+.ethereum-price{
+    color: turquoise;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.ethereum-info-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.time-container{
+    display: flex;
+    
+}
+
+
+.ethereum-card{
+    width: 200px;
+    border-radius: 10px;
+}
+
+hr{
+    margin-top: 15px;
+    border: 0.8px solid white;
+    opacity: 0.2;
+}
+
+.creator-container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.creator-name{
+    font-size: 11px;
+    margin-left: 8px;
+    color: rgb(139, 139, 139);
+}
+
+strong{
+    font-size: 11px;
+    color: white;
+
+}
+.avatar-image{
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
